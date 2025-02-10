@@ -38,21 +38,43 @@
 
         <h2>Exemplo 2: colunas com tamanho diferentes</h2>
         <div class=" row gx-1">
-        <div class="col-4">
-            <div class="col">
-                <h3 class="text-center">Coluna A</h3>
-                <p class="bg-danger-subtle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
-                    explicabo.</p>
+            <div class="col-4">
+                <div class="col">
+                    <h3 class="text-center">Coluna A</h3>
+                    <p class="bg-danger-subtle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
+                        explicabo.</p>
+                </div>
+
+                <div class="col-8">
+                    <h3 class="text-center">Coluna B</h3>
+                    <p class="bg-danger-subtle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
+                        explicabo.</p>
+                </div>
             </div>
 
-            <div class="col-8">
-                <h3 class="text-center">Coluna B</h3>
-                <p class="bg-danger-subtle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
-                    explicabo.</p>
-            </div>
+
+        </div>
+
+        <h2>Exemplo 3: colunas com tamanhos de acordo com a tela</h2>
+        <p>usando as classes de <b>Breakpoints</b>:
+            sm (>=576px), md (>=768px), lg (>=992px), xl (>=1200px) e xxl (>=1400px) </p>
+
+        <div class="row gx-1">
+            <div class="col-md-7">
+                <p class="bg-danger-subtle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iste accusamus vero enim est
+                    molestiae
+                    aperiam sed, ipsam blanditiis quasi?
+                </p>
             </div>
 
-
+            <div class="col-md-5">
+                <p class="bg-warning-subtle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iste accusamus vero enim est
+                    molestiae
+                    aperiam sed, ipsam blanditiis quasi?
+                </p>
+            </div>
         </div>
 
     </div>
